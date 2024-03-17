@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Rafa y la Changa</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: Arial, sans-serif;
+          background-color: #e2dd98;
+          height: 100vh; /* Ocupar toda la altura de la ventana */
+        }
+
+      
+        .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra */
+          border-radius: 10px; /* Bordes redondeados */
+          box-sizing: border-box;
+          
+        }
+        .container2 {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px;
+          background-color: rgba(133, 240, 195, 0.425);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra */
+          border-radius: 10px; /* Bordes redondeados */
+          object-position: center;
+          box-sizing: border-box;
+        }
+        .container3 {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px;
+          background-color:rgba(73, 117, 47, 0.473);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra */
+          border-radius: 10px; /* Bordes redondeados */
+          object-position: center;
+          box-sizing: border-box;
+        }        
+        .fila {
+            display: flex;
+            flex-wrap: wrap; /* Permite que los elementos se ajusten automáticamente a la fila */
+            justify-content: space-between; /* Espacio uniformemente entre los elementos */
+        }
+
+        .columna {
+            width: 100%; /* Ocupa el 100% del ancho en dispositivos móviles */
+            max-width: calc(50% - 20px); /* Ajusta el ancho para dos columnas en pantallas más grandes */
+            margin-bottom: 20px; /* Espacio entre las columnas */
+            box-sizing: border-box; /* Incluye el padding en el ancho total */
+        }
+        .box{
+            display: flex;
+        }    
+      
+        h1 {
+          text-align: center;
+          color: #333;
+        }
+      
+        p {
+          color: #666;
+          line-height: 1.6;
+        }
+        table {
+            width: 100%; /* Hacer que la tabla ocupe todo el ancho del contenedor */
+            border-collapse: collapse; /* Colapsar bordes de la tabla */
+        }
+  
+        th, td {
+            border: 1px solid #ddd; /* Borde para celdas */
+            padding: 8px; /* Espaciado interno */
+            text-align: center; /* Alinear texto al centro */
+        }
+
+        th {
+            background-color: #f2f2f2; /* Color de fondo para encabezados */
+        }
+
+        .imagen {
+            width: 190px;
+            height: 250px;
+        }
+      </style>
+</head>
+<body>
+    
+    <header>
+        <div class="container" style="background: linear-gradient(to right, #ABC874,#69BF74);">
+            <h1>Galeria de Rafa y la Changa</h1>
+        </div>
+    </header>
+    <br>
+    <section>
+        <div>
+           <table>
+            <tr>
+              <td class="container" colspan="2" style="background-color: rgb(234, 243, 106);">YO</td> <!-- Celda combinada para Título 1 -->
+              <td class="container" colspan="2" style="background-color: rgb(234, 243, 106);">ELLA</td> <!-- Celda combinada para Título 2 -->
+            </tr>
+            <tr>
+              <td class="container3"><img class="imagen" src="img/yo.jpg" alt="Imagen 1"></td> <!-- Celda con imagen 1 -->
+              <td class="container3"><img class="imagen" src="img/checo2.avif" alt="Imagen 2"></td> <!-- Celda con imagen 2 -->
+              <td class="container3"><img class="imagen" src="img/ella.jpg" alt="Imagen 3"></td> <!-- Celda con imagen 3 -->
+              <td class="container3"><img class="imagen" src="img/chango.jpg_large" alt="Imagen 4"></td> <!-- Celda con imagen 4 -->
+            </tr>
+            <tr>
+                <td class="container" colspan="2" style="background-color: rgb(234, 243, 106);">Descripcion</td> <!-- Celda combinada para Título 1 -->
+                <td class="container" colspan="2" style="background-color: rgb(234, 243, 106);">Descripcion</td> <!-- Celda combinada para Título 2 -->  
+            </tr>
+            <tr>
+                <td class="container3" colspan="2">
+                    <p style="text-align: justify; color: black;">
+                        Guapo,Inteligente,Carismatico,Visionario,
+                        Sabio,Valiente,Gentil,Fiel,Precioso,Increible,
+                        Atento,Considerado,Bello,Maduro,Dedicado,Ambicioso,
+                        Tranquilo,Educado,Sensual,Talentoso y Noble</p>
+                </td>
+                <td class="container3" colspan="2">
+                    <p style="text-align: justify; color: black;">
+                        Aburrida, Chaparra, Asaltacunas, 
+                        Miope y Naca (Fan del San Luis)
+                    </p>
+                </td>
+            </tr>
+          </table> 
+        </div>
+    </section>
+    <br><br>
+    <section>
+        <div>
+            <table>
+             <tr>
+               <td class="container" colspan="3" style="background-color: rgb(234, 243, 106);">"BLOWJOBS (Glow-Up)"</td> <!-- Celda combinada para Título 1 -->
+             </tr>
+             <tr>
+               <td class="container3"><img class="imagen" src="img/img7.jpg" alt="Imagen 1"></td> <!-- Celda con imagen 1 -->
+               <td class="container3"><img class="imagen" src="img/img8.jpg" alt="Imagen 2"></td> <!-- Celda con imagen 2 -->
+               <td class="container3"><img style="width: 200; height: 250px;" src="img/img1.jpg" alt="Imagen 3"></td> <!-- Celda con imagen 3 -->
+             </tr>
+             <tr>
+                <td class="container3">
+                    <p style="text-align: justify; color: black;">Verga, todo lo que tiene que ver con fotos de la ciriaco me da un cringe que te cagas </p>
+                </td>
+                <td class="container3">
+                    <p style="text-align: justify; color: black;">Me caga esta foto porque tengo cara de pendejo por andar pedisimo, desde aqui valio vrg mi riñon</p>
+                </td>
+                <td class="container3">
+                    <p style="text-align: justify; color: black;">Nuestra foto mas reciente, la vi hoy y me dio la idea de hacer esto. Aparte tenia que estudiar sobre como hacer este tipo de paginas </p>
+                </td>
+             </tr>
+           </table> 
+         </div>
+    </section>
+    <br><br>
+    <section>
+        <div>
+           <table>
+            <tr>
+              <td class="container" colspan="4" style="background-color: rgb(234, 243, 106);">TODAS LAS FOTOS</td> <!-- Celda combinada para Título 1 -->
+            </tr>
+            <tr>
+              <td class="container3"><img class="imagen" src="img/img2.jpeg" alt="Imagen 1"></td> <!-- Celda con imagen 1 -->
+              <td class="container3"><img class="imagen" src="img/img3.jpeg" alt="Imagen 2"></td> <!-- Celda con imagen 2 -->
+              <td class="container3"><img class="imagen" src="img/img4.jpeg" alt="Imagen 3"></td> <!-- Celda con imagen 3 -->
+              <td class="container3"><img class="imagen" src="img/img5.jpeg" alt="Imagen 4"></td> <!-- Celda con imagen 4 -->
+            </tr>
+            <tr>
+                <td class="container3"><img class="imagen" src="img/img6.jpeg" alt="Imagen 1"></td> <!-- Celda con imagen 1 -->
+                <td class="container3"><img class="imagen" src="img/img7.jpg" alt="Imagen 2"></td> <!-- Celda con imagen 2 -->
+                <td class="container3"><img class="imagen" src="img/img1.jpg" alt="Imagen 3"></td> <!-- Celda con imagen 3 -->
+                <td class="container3"><img class="imagen" src="img/img8.jpg" alt="Imagen 4"></td> <!-- Celda con imagen 4 -->
+              </tr>            
+          </table> 
+        </div>
+    </section>
+</body>
+<footer>
+
+</footer>
+</html>
